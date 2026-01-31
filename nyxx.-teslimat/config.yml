@@ -1,0 +1,117 @@
+settings:
+  prefix: "&b&lSKYBLOCK &8» "
+  menu-title: "&0&lTESLIMAT MERKEZI" # 'ADASI' yazısı kaldırıldı, daha ciddi.
+  menu-size: 54
+  filler-item: GRAY_STAINED_GLASS_PANE
+  border-item: LIGHT_BLUE_STAINED_GLASS_PANE
+
+deliveries:
+  # --- SOL TARAF: MADEN GÖREVLERİ ---
+  tas:
+    slot: 10
+    display-item: COBBLESTONE
+    name: "&7&lKırıktaş Sevkiyatı"
+    cooldown: 3600
+    lore: ["&8&m-----------------------", "&fGereken: &e576x Kırıktaş", "&fÖdül: &a500 TL", "", "{STATUS}", "&8&m-----------------------"]
+    required-material: COBBLESTONE
+    required-amount: 576
+    reward-commands: ["eco give {PLAYER} 500"]
+
+  demir:
+    slot: 19
+    display-item: IRON_INGOT
+    name: "&f&lDemir Sevkiyatı"
+    cooldown: 86400
+    lore: ["&8&m-----------------------", "&fGereken: &e64x Demir", "&fÖdül: &a2.500 TL", "", "{STATUS}", "&8&m-----------------------"]
+    required-material: IRON_INGOT
+    required-amount: 64
+    reward-commands: ["eco give {PLAYER} 2500"]
+
+  altin:
+    slot: 28
+    display-item: GOLD_INGOT
+    name: "&6&lAltın Sevkiyatı"
+    cooldown: 86400
+    lore: ["&8&m-----------------------", "&fGereken: &e64x Altın", "&fÖdül: &a4.000 TL", "", "{STATUS}", "&8&m-----------------------"]
+    required-material: GOLD_INGOT
+    required-amount: 64
+    reward-commands: ["eco give {PLAYER} 4000"]
+
+  elmas:
+    slot: 37
+    display-item: DIAMOND
+    name: "&b&lElmas Sevkiyatı"
+    cooldown: 604800
+    lore: ["&8&m-----------------------", "&fGereken: &e32x Elmas", "&fÖdül: &a15.000 TL", "", "{STATUS}", "&8&m-----------------------"]
+    required-material: DIAMOND
+    required-amount: 32
+    reward-commands: ["eco give {PLAYER} 15000"]
+
+  # --- SAĞ TARAF: FARM GÖREVLERİ ---
+  kaktus:
+    slot: 16
+    display-item: CACTUS
+    name: "&a&lKaktüs Hasadı"
+    cooldown: 86400
+    lore: ["&8&m-----------------------", "&fGereken: &e1000x Kaktüs", "&fÖdül: &a7.500 TL", "", "{STATUS}", "&8&m-----------------------"]
+    required-material: CACTUS
+    required-amount: 1000
+    reward-commands: ["eco give {PLAYER} 7500"]
+
+  bugday:
+    slot: 25
+    display-item: WHEAT
+    name: "&e&lBuğday Sevkiyatı"
+    cooldown: 43200
+    lore: ["&8&m-----------------------", "&fGereken: &e256x Buğday", "&fÖdül: &a2.000 TL", "", "{STATUS}", "&8&m-----------------------"]
+    required-material: WHEAT
+    required-amount: 256
+    reward-commands: ["eco give {PLAYER} 2000"]
+
+  havuc:
+    slot: 34
+    display-item: CARROT
+    name: "&6&lHavuç Hasadı"
+    cooldown: 43200
+    lore: ["&8&m-----------------------", "&fGereken: &e256x Havuç", "&fÖdül: &a2.000 TL", "", "{STATUS}", "&8&m-----------------------"]
+    required-material: CARROT
+    required-amount: 256
+    reward-commands: ["eco give {PLAYER} 2000"]
+
+  zombi:
+    slot: 43
+    display-item: ROTTEN_FLESH
+    name: "&d&lZombi Eti Sevkiyatı"
+    cooldown: 86400
+    lore: ["&8&m-----------------------", "&fGereken: &e512x Zombi Eti", "&fÖdül: &a5.000 TL", "", "{STATUS}", "&8&m-----------------------"]
+    required-material: ROTTEN_FLESH
+    required-amount: 512
+    reward-commands: ["eco give {PLAYER} 5000"]
+
+  # --- MERKEZ: ÖZEL GÖREVLER ---
+  netherit:
+    slot: 22
+    display-item: NETHERITE_INGOT
+    name: "&4&lEfsanevi Cevher"
+    cooldown: 1209600
+    lore: ["&8&m-----------------------", "&fGereken: &e1x Netherit Külçesi", "&fÖdül: &6100.000 TL", "", "{STATUS}", "&8&m-----------------------"]
+    required-material: NETHERITE_INGOT
+    required-amount: 1
+    reward-commands: ["eco give {PLAYER} 100000"]
+
+  obsidyen:
+    slot: 31
+    display-item: OBSIDIAN
+    name: "&5&lObsidyen Blokları"
+    cooldown: 172800
+    lore: ["&8&m-----------------------", "&fGereken: &e64x Obsidyen", "&fÖdül: &a10.000 TL", "", "{STATUS}", "&8&m-----------------------"]
+    required-material: OBSIDIAN
+    required-amount: 64
+    reward-commands: ["eco give {PLAYER} 10000"]
+
+messages:
+  ready-status: "&b&l✔ &eTeslim Etmek İçin Tıkla!"
+  wait-status: "&c&l✘ &7Bekleme: &e{TIME}"
+  success: "&b&l✔ &7Teslimat yapıldı! Ödüller verildi."
+  no-items: "&c&l✘ &7Hata! &e{NEED} adet {ITEM} &7eksik."
+  reloaded: "&aAyarlar başarıyla yenilendi!"

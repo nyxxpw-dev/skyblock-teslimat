@@ -1,0 +1,7 @@
+name: NyxxTeslimat
+version: 1.0
+main: nyxx.nyxxTeslimat.NyxxTeslimat
+api-version: 1.18
+commands:
+  teslimat:
+    description: Skyblock teslimat menusunu acar.
