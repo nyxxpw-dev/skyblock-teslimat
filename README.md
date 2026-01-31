@@ -15,3 +15,8 @@ Skyblock sunucuları için geliştirilmiş, oyuncuların ürün teslimatı yapar
 
 ## 📜 Lisans
 Bu proje açık kaynaklıdır ve geliştirilmeye açıktır.
+
+## 🚀 Gelecek Güncellemeler (Roadmap)
+- [ ] **Modern & Custom GUI Desteği:** Klasik Minecraft arayüzünden kurtulup, tamamen özel tasarım (texture) destekli menüler eklenecek.
+- [ ] **PlaceholderAPI Desteği:** Teslimat verilerinin skor tablolarında gösterilmesi sağlanacak.
+- [ ] **Gelişmiş Efektler:** Teslimat tamamlandığında havai fişek ve özel ses efektleri.
